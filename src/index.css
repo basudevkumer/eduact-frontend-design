@@ -8,5 +8,9 @@
 
 @theme{
   /* font family */
-  --font-urbaist: "Urbanist", sans-serif;
+  --font-urbanist: "Urbanist", sans-serif;
+}
+
+.l{
+  color: #f6f5f535;
 }
