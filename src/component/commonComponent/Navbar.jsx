@@ -9,7 +9,7 @@ import { FiPhoneCall } from "react-icons/fi";
 const Navbar = () => {
   const { navbarImage } = allImages;
   return (
-    <nav className="py-2">
+    <nav className="py-2 shadow-xl">
       <Container>
         <div className="flex items-center justify-between">
           <figure>
