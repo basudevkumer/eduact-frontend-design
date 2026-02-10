@@ -4,8 +4,11 @@ function AboutSection() {
   return (
     <div>
         <Container>
-            <h1>This is about page</h1>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <div className='grid grid-cols-2'>
+                <div>Grid 1</div>
+                <div>Grid 2</div>
+
+            </div>
         </Container>
     </div>
   )
