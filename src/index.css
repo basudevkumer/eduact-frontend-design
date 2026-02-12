@@ -10,3 +10,11 @@
 .l{
   color: #181818cc
 }
+
+h1{
+  @apply text-[40px] text-[#2A254D] font-bold leading-[47px] py-10
+}
+
+p{
+  @apply text-[16px] text-[#697585] font-semibold leading-[25px]
+}
