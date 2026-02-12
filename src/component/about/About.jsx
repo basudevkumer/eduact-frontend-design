@@ -1,4 +1,4 @@
-import React from 'react'
+import BorderDashedcard from '../commonComponent/BorderDashedcard';
 import Container from '../commonComponent/Container'
 import { FaChevronRight } from "react-icons/fa";
 
@@ -86,6 +86,9 @@ function AboutSection() {
                     </div>
 
                 </div>
+
+
+                <BorderDashedcard/>
             </Container>
         </div>
     )
