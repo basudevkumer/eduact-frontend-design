@@ -10,8 +10,8 @@ const Banner = () => {
                     {/* Left Side */}
                     <div>
                         <h2 className='w-150 font-bold text-7xl'>Come along as we begin our learning journey</h2>
-                        <p className='pt-10 w-110'>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary,</p>
-                        <button><a href="#">Try for fee</a></button>
+                        <p className='pt-10 w-110 pb-10 text-[#697585]'>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary,</p>
+                        <button><a href="#" className='bg-[#F57005] px-8 py-5 rounded-xl text-white text-lg'>Try for fee</a></button>
                     </div>
                     {/* Right Side */}
                     <div>
