@@ -9,7 +9,9 @@ const Banner = () => {
                 <div className='grid grid-cols-2'>
                     {/* Left Side */}
                     <div>
-                        <h2>Come along as we begin our learning journey</h2>
+                        <h2 className='w-150 font-bold text-7xl'>Come along as we begin our learning journey</h2>
+                        <p className='pt-10 w-110'>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary,</p>
+                        <button><a href="#">Try for fee</a></button>
                     </div>
                     {/* Right Side */}
                     <div>
