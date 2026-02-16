@@ -7,6 +7,7 @@ import Contact from './page/Contact'
 import Course from './page/Course'
 import Pages from './page/Pages'
 import Shop from './page/Shop'
+import Courses from './page/Courses'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path='/blog' element={<Blog/>}/>
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/course' element={<Course/>}/>
+          <Route path='/courses' element={<Courses/>}/>
           <Route path='/page' element={<Pages/>}/>
           <Route path='/shop' element={<Shop/>}/>
           
