@@ -1,6 +1,6 @@
 
-import Container from '../component/commonComponent/Container'
-import PopularCourse from '../component/commonComponent/PopularCourse'
+import Container from '../commonComponent/Container'
+import PopularCourse from '../commonComponent/PopularCourse'
 import { FaChevronRight } from "react-icons/fa";
 
 
