@@ -34,19 +34,19 @@ const Misson = () => {
 
                      <div className="grid grid-cols-2 gap-y-4 gap-x-2 mt-10">
               <div className="flex items-center gap-x-2">
-                <IoIosCheckmarkCircle className="text-primarys text-[18px] lg:text-[20px] font-bold shrink-0" />
+                <IoIosCheckmarkCircle className="text-[#4F5DE4] text-xl lg:text-[20px] font-bold shrink-0" />
                 <h4 className="text-[13px] lg:text-base font-bold">Free Incoming method</h4>
               </div>
               <div className="flex items-center gap-x-2">
-                <IoIosCheckmarkCircle className="text-secondarys text-[18px] lg:text-[20px] font-bold shrink-0" />
+                <IoIosCheckmarkCircle className="text-[#F57005] text-xl lg:text-[20px] font-bold shrink-0" />
                 <h4 className="text-[13px] lg:text-base font-bold">Provide Best Support</h4>
               </div>
               <div className="flex items-center gap-x-2">
-                <IoIosCheckmarkCircle className="text-secondarys text-[18px] lg:text-[20px] font-bold shrink-0" />
+                <IoIosCheckmarkCircle className="text-[#F57005] text-xl lg:text-[20px] font-bold shrink-0" />
                 <h4 className="text-[13px] lg:text-base font-bold">Expert Many Teacher</h4>
               </div>
               <div className="flex items-center gap-x-2">
-                <IoIosCheckmarkCircle className="text-primarys text-[18px] lg:text-[20px] font-bold shrink-0" />
+                <IoIosCheckmarkCircle className="text-[#4F5DE4] text-xl lg:text-[20px] font-bold shrink-0" />
                 <h4 className="text-[13px] lg:text-base font-bold">Lifetime access</h4>
               </div>
             </div>
