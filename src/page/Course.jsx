@@ -1,12 +1,11 @@
-import React from 'react'
-import Course_details from '../component/course/course_details'
+import CourseDetails from "../component/course/CourseDetails";
 
 const Course = () => {
   return (
     <>
-    <Course_details/>
+      <CourseDetails />
     </>
-  )
-}
+  );
+};
 
-export default Course
+export default Course;
