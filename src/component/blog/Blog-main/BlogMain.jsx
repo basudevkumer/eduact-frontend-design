@@ -5,11 +5,14 @@ import { FaChevronRight } from "react-icons/fa6";
 import blogImg from "../../../assets/images/blog1.png";
 import userImg from "../../../assets/images/blog1.png";
 import BlogCard from "../../commonComponent/BlogCard";
+import Bredcrumb from "../../commonComponent/Bredcrumb";
 
 const BlogMain = () => {
   return (
-    <section className="bg-[#F8F9FA] py-20">
-      <div className="container mx-auto px-4">
+    <section className="">
+      <Bredcrumb slug={"Blog"} slugHeading={"Blog"}/>
+      <div className="bg-[#F8F9FA] py-20">
+        <div className="container mx-auto px-4 ">
 
         {/* Grid Layout - gap-y-24 provides room for the floating card content */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-32">
@@ -88,6 +91,7 @@ const BlogMain = () => {
           </button>
         </div>
 
+      </div>
       </div>
     </section>
   );

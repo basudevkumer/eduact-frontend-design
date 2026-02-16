@@ -1,12 +1,14 @@
-import React from 'react'
-import Banner from '../component/home/Banner'
+import React from "react";
+import Banner from "../component/home/Banner";
+import Misson from "../component/commonComponent/Misson";
 
 const Home = () => {
   return (
     <>
-    <Banner/>
+      <Banner />
+      <Misson />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

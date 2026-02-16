@@ -1,5 +1,6 @@
 import React from 'react'
 import Course_details from '../component/course/Course_details'
+import CourseDetails from "../component/course/CourseDetails";
 
 const Course = () => {
   return (
@@ -8,5 +9,9 @@ const Course = () => {
     </>
   )
 }
+      <CourseDetails />
+    </>
+  );
+};
 
-export default Course
+export default Course;
