@@ -9,6 +9,9 @@ import Pages from './page/Pages'
 import Shop from './page/Shop'
 import Product from './page/Product'
 import Product_detailes from './page/Product_detailes'
+import Teacher from './page/Teacher'
+import Gallary from './page/Gallary'
+import Login from './page/Login'
 
 const App = () => {
   return (
@@ -24,6 +27,10 @@ const App = () => {
           <Route path='/shop' element={<Shop/>}/>
           <Route path='/product' element={<Product/>}/>
           <Route path='/Product_detailes' element={<Product_detailes/>}/>
+          <Route path='/teacher' element={<Teacher/>}/>
+          <Route path='/gallary' element={<Gallary/>}/>
+          <Route path='/login' element={<Login/>}/>
+          
       </Route>
     </Routes>
     </BrowserRouter>
