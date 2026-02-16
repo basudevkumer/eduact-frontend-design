@@ -36,17 +36,18 @@ const Navbar = () => {
               <button className="cursor-pointer">Pages</button>
 
               <ul className="absolute hidden group-hover:block top-full left-0 bg-white shadow-md rounded-md min-w-[160px]">
-               
                 <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
-                 <Link to={"/gallary"}> Gallery</Link>
+                  <Link to={"/gallary"}> Gallery</Link>
                 </li>
                 <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
-                 <Link to={"/gallary"}> Pricing Table</Link>
+                  <Link to={"/teacher"}> Teacher</Link>
                 </li>
                 <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
-                 <Link to={"/gallary"}> FAQs</Link>
+                  <Link to={"/gallary"}> Pricing Table</Link>
                 </li>
-               
+                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                  <Link to={"/gallary"}> FAQs</Link>
+                </li>
               </ul>
             </li>
 
@@ -68,19 +69,21 @@ const Navbar = () => {
               </span>
             </li>
           </ul>
-          <button className="bg-[#4F5DE4] text-white p-4 rounded-l-[60px] flex items-center gap-x-[10px] cursor-pointer">
-            <span className="inline-block text-xl p-3 bg-white rounded-full text-[#4F5DE4]">
-              <FiPhoneCall />
-            </span>
-            <span className="flex flex-col  ">
-              <span className="font-semibold font-urbanist text-lg/[30px]  inline-block text-white">
-                (303) 555-0105
+          <Link to={"/contact"}>
+            <button className="bg-[#4F5DE4] text-white p-4 rounded-l-[60px] flex items-center gap-x-[10px] cursor-pointer">
+              <span className="inline-block text-xl p-3 bg-white rounded-full text-[#4F5DE4]">
+                <FiPhoneCall />
               </span>
-              <span className="font-semibold font-urbanist text-[]14/[23px]  inline-block text-white">
-                Call to Questions
+              <span className="flex flex-col  ">
+                <span className="font-semibold font-urbanist text-lg/[30px]  inline-block text-white">
+                  (303) 555-0105
+                </span>
+                <span className="font-semibold font-urbanist text-[]14/[23px]  inline-block text-white">
+                  Call to Questions
+                </span>
               </span>
-            </span>
-          </button>
+            </button>
+          </Link>
         </div>
       </Container>
     </nav>
