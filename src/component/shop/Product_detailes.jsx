@@ -9,6 +9,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaCircleCheck } from "react-icons/fa6";
 import { CiStar } from "react-icons/ci";
+import { Link } from "react-router";
 
 const Product_detailes = () => {
   return (
@@ -60,9 +61,11 @@ const Product_detailes = () => {
               <button className="border flex items-center p-4 bg-gradient-to-r from-[#24223E] to-[#3C385E] text-white gap-x-2 rounded-xl">
                 Add to Wishlist <FaArrowRight />
               </button>
-              <button className="border rounded-xl flex items-center p-4 bg-gradient-to-r from-[#F26522] to-[#FF8C22] text-white gap-x-2">
-                Add to Cart <FaArrowRight />{" "}
-              </button>
+              <Link to={"/cart"}>
+                <button className="border rounded-xl flex items-center p-4 bg-gradient-to-r from-[#F26522] to-[#FF8C22] text-white gap-x-2">
+                  Add to Cart <FaArrowRight />
+                </button>
+              </Link>
             </div>
             <div className="flex gap-9 mt-5">
               <h1>Share with friend</h1>
