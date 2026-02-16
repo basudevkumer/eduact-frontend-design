@@ -21,31 +21,40 @@ const Navbar = () => {
               <Link to={"/"}>Home</Link>
             </li>
             <li className="font-semibold font-urbanist text-base text-[#2A254D]">
-              
-                <Link to={"/about"} className="flex items-center gap-x-1">
-                  {" "}
-                  About{" "}
-                  <span>
-                    <IoChevronDownSharp />
-                  </span>
-                </Link>
-             
+              <Link to={"/about"} className="flex items-center gap-x-1">
+                {" "}
+                About{" "}
+                <span>
+                  <IoChevronDownSharp />
+                </span>
+              </Link>
             </li>
             <li className="font-semibold font-urbanist text-base text-[#2A254D]">
               <Link to={"/course"}>Courses</Link>
-              
             </li>
-            <li className="font-semibold font-urbanist text-base text-[#2A254D]">
+            <li className="font-semibold font-urbanist text-base text-[#2A254D] relative group">
               <button className="cursor-pointer">Pages</button>
-            
+
+              <ul className="absolute hidden group-hover:block top-full left-0 bg-white shadow-md rounded-md min-w-[160px]">
+               
+                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                 <Link to={"/gallary"}> Gallery</Link>
+                </li>
+                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                 <Link to={"/gallary"}> Pricing Table</Link>
+                </li>
+                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                 <Link to={"/gallary"}> FAQs</Link>
+                </li>
+               
+              </ul>
             </li>
+
             <li className="font-semibold font-urbanist text-base text-[#2A254D]">
-             
               <Link to={"/blog"}>Blog</Link>
             </li>
             <li className="font-semibold font-urbanist text-base text-[#2A254D]">
               <Link to={"/shop"}>Shop</Link>
-          
             </li>
             <li className="flex items-center gap-x-3">
               <span className="text-xl text-[#2A254D] cursor-pointer">
