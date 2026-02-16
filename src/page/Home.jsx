@@ -4,6 +4,7 @@ import Misson from '../component/commonComponent/Misson'
 
 const Home = () => {
   return (
+    <div></div>
     <>
     <Banner/>
     <Misson/>
