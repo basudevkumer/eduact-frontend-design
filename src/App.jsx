@@ -12,7 +12,7 @@ import Checkout from "./page/Checkout";
 import Product from "./component/shop/Product";
 import Product_detailes from "./component/shop/Product_detailes";
 import Teacher from "./page/Teacher";
-import Gallary from "./page/Gallary";
+import Gallary from "./page/GallaryP";
 import Login from "./page/Login";
 
 const App = () => {

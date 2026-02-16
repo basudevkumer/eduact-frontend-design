@@ -1,12 +1,12 @@
-import React from 'react'
-import LoginPart from '../component/LoginPart'
+import React from "react";
+import LoginPart from "../component/auth/LoginPart";
 
 const Login = () => {
   return (
     <div>
-        <LoginPart/>
+      <LoginPart />
     </div>
-  )
-}
+  );
+};
 
-export default Login
+export default Login;

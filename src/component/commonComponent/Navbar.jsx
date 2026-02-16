@@ -5,6 +5,7 @@ import { IoChevronDownSharp } from "react-icons/io5";
 import { FaRegUser } from "react-icons/fa";
 import { IoIosSearch } from "react-icons/io";
 import { FiPhoneCall } from "react-icons/fi";
+import { Link } from "react-router";
 
 const Navbar = () => {
   const { navbarImage } = allImages;
@@ -43,8 +44,11 @@ const Navbar = () => {
               <span className="text-xl text-[#2A254D] cursor-pointer">
                 <IoIosSearch />
               </span>
+
               <span className="text-lg text-[#2A254D] cursor-pointer">
-                <FaRegUser />
+                <Link to={"/login"}>
+                  <FaRegUser />
+                </Link>
               </span>
             </li>
           </ul>

@@ -1,12 +1,14 @@
 import React from 'react'
-import Bredcrumb from './commonComponent/Bredcrumb'
-import Container from './commonComponent/Container'
+
+
 import { FaPlus } from 'react-icons/fa'
+import Bredcrumb from '../commonComponent/Bredcrumb'
+import Container from '../commonComponent/Container'
 
 const GallaryPart = () => {
   return (
     <div>
-        <Bredcrumb slug={"Gallery"} slugHeading={"Home  /  Course"} />
+        <Bredcrumb slug={"Course"} slugHeading={"Gallery"} />
         <Container>
         <div className='py-30 '>
         <div className='one flex gap-9'>
