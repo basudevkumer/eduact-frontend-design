@@ -18,27 +18,34 @@ const Navbar = () => {
           </figure>
           <ul className="flex items-center gap-x-[55px]">
             <li className="font-semibold font-urbanist text-base text-[#2A254D]">
-              <a href="#">Home</a>
+              <Link to={"/"}>Home</Link>
             </li>
             <li className="font-semibold font-urbanist text-base text-[#2A254D]">
-              <a href="#" className="flex items-center gap-x-1">
-                About{" "}
-                <span>
-                  <IoChevronDownSharp />
-                </span>
-              </a>
+              
+                <Link to={"/about"} className="flex items-center gap-x-1">
+                  {" "}
+                  About{" "}
+                  <span>
+                    <IoChevronDownSharp />
+                  </span>
+                </Link>
+             
             </li>
             <li className="font-semibold font-urbanist text-base text-[#2A254D]">
-              <a href="#">Courses</a>
+              <Link to={"/course"}>Courses</Link>
+              
             </li>
             <li className="font-semibold font-urbanist text-base text-[#2A254D]">
-              <a href="#">Pages</a>
+              <button className="cursor-pointer">Pages</button>
+            
             </li>
             <li className="font-semibold font-urbanist text-base text-[#2A254D]">
-              <a href="#">Blog</a>
+             
+              <Link to={"/blog"}>Blog</Link>
             </li>
             <li className="font-semibold font-urbanist text-base text-[#2A254D]">
-              <a href="#">Shop</a>
+              <Link to={"/shop"}>Shop</Link>
+          
             </li>
             <li className="flex items-center gap-x-3">
               <span className="text-xl text-[#2A254D] cursor-pointer">

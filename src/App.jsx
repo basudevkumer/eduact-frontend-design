@@ -5,7 +5,6 @@ import About from "./page/About";
 import Blog from "./page/Blog";
 import Contact from "./page/Contact";
 import Course from "./page/Course";
-import Pages from "./page/Pages";
 import Shop from "./page/Shop";
 import Cart from "./component/addToCart/Cart";
 import Product from "./component/shop/Product";
@@ -25,7 +24,6 @@ const App = () => {
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/course" element={<Course />} />
-          <Route path="/page" element={<Pages />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/checkout" element={<CheckoutPg />} />

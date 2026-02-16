@@ -1,5 +1,6 @@
 import React from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { Link } from "react-router";
 
 
 const BlogCard = ({cardImages,userImages,time,heading,userName, userDepartment}) => {
@@ -29,7 +30,7 @@ const BlogCard = ({cardImages,userImages,time,heading,userName, userDepartment})
                     <p className="text-[#697585] text-[12px]/[25px] font-medium tracking-[4%] font-urbanist">{userDepartment}</p>
                 </div>
             </div>
-            <span className="p-3.5 inline-block   hover:bg-[#F57005] text-[#697585] border border-[#F57005] transition duration-300 ease-in-out text-lg  hover:text-white rounded-full"><FaArrowRightLong/></span>
+            <span className="p-3.5 inline-block   hover:bg-[#F57005] text-[#697585] border border-[#F57005] transition duration-300 ease-in-out text-lg  hover:text-white rounded-full"><Link to={"/product_detailes"}><FaArrowRightLong/></Link></span>
         </div>
       </div>
     </div>
