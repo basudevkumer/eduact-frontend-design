@@ -9,5 +9,3 @@ const Course_details = () => {
 }
 
 export default Course_details
-
-``
