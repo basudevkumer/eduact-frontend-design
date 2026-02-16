@@ -1,12 +1,12 @@
-import React from 'react'
-import TeacherPart from '../component/TeacherPart'
+import React from "react";
+import TeacherPart from "../component/teacher/TeacherPart";
 
 const Teacher = () => {
   return (
     <div>
-        <TeacherPart/>
+      <TeacherPart />
     </div>
-  )
-}
+  );
+};
 
-export default Teacher
+export default Teacher;
