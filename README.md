@@ -1,16 +1,126 @@
-# React + Vite
+# EduAct Frontend Design
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern educational platform frontend built using **React** and **Tailwind CSS**.  
+This project was developed as part of an internship program, focusing on UI design, component structure, routing, and responsive layouts.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## React Compiler
+🔗 Live Project:  
+https://eduact-frontend-design-ttto.vercel.app/
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+---
 
-## Expanding the ESLint configuration
+## 🛠 Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Tailwind CSS
+- React Router DOM
+- React Icons
+
+---
+
+## 📌 Project Overview
+
+EduAct is a frontend-focused project representing an educational website interface.  
+The application includes multiple pages such as:
+
+- Home Page  
+- Courses & Course Details  
+- Blog & Blog Details  
+- Teachers & Teacher Details  
+- Gallery  
+- Cart & Checkout  
+- Login  
+- Custom 404 Page  
+
+The goal of this project was to practice real-world React project structure, routing, reusable components, and UI consistency.
+
+---
+
+## ⚙️ Setup & Installation
+
+To run this project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/basudevkumer/eduact-frontend-design
+
+# Navigate into the project directory
+cd eduact-frontend-design
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+
+
+📂 Project Structure (Simplified)
+css
+Copy code
+src/
+ ├── components/
+ ├── pages/
+ ├── routes/
+ ├── assets/
+ └── App.jsx
+📊 Current Status
+⚠️ Project is partially completed.
+
+Approximately 65% of design and development was finished at submission time.
+Some sections are pending further refinement and responsive adjustments.
+
+Pending / Under Improvement:
+
+About Page
+
+Teacher Details
+
+Become a Teacher Section
+
+404 Error Page Responsiveness
+
+👥 Team Contributions
+This project was developed collaboratively.
+
+Key Responsibilities
+Jhulon Kumar Ray – Team Leader
+
+Created repository & project structure
+
+Invited and coordinated team members
+
+Managed overall development workflow
+
+Resolved conflicts & handled issues
+
+Deployed the project
+
+Oversaw UI consistency & debugging
+
+🎯 Learning Objectives
+This project helped reinforce:
+
+React component architecture
+
+Client-side routing
+
+Tailwind CSS layout techniques
+
+Team-based development workflow
+
+Debugging & error handling
+
+📄 License
+This project is created for educational and learning purposes.
+
+🙏 Acknowledgment
+Special thanks to instructors and mentors for guidance and support throughout the development process.
+
+Author:
+Jhulon Kumar Ray
+Creative It Institute :- Intern – Front-End Developer
+EBT-WEB-1
